@@ -1,0 +1,46 @@
+
+/* Estilo general del cuerpo */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Fondo gris claro */
+  color: #333; /* Texto de color gris oscuro */
+  margin: 0;
+  padding: 20px;
+}
+
+/* Contenedor principal de la aplicación */
+.App {
+  max-width: 800px; /* Ancho máximo del contenedor */
+  margin: 0 auto; /* Centrando el contenedor */
+  background: white; /* Fondo blanco */
+  padding: 20px; /* Espaciado interno */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo de los encabezados */
+h1, h2, h3 {
+  color: #444; /* Color de texto para encabezados */
+  margin-bottom: 20px; /* Espaciado inferior para encabezados */
+}
+
+/* Estilo de los párrafos */
+p {
+  line-height: 1.6; /* Altura de línea para mejorar la legibilidad */
+  margin-bottom: 20px; /* Espaciado inferior para párrafos */
+}
+
+/* Estilo de los botones */
+button {
+  background-color: #007bff; /* Color de fondo azul */
+  color: white; /* Color de texto blanco */
+  border: none; /* Sin borde */
+  padding: 10px 20px; /* Espaciado interno */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  font-size: 16px; /* Tamaño de fuente */
+}
+
+button:hover {
+  background-color: #0056b3; /* Color de fondo más oscuro al pasar el cursor */
+}
